@@ -1,0 +1,19 @@
+# Ignorar archivos y directorios generados por Django
+*.pyc
+__pycache__/
+*.sqlite3
+
+# Ignorar archivos y directorios generados por el entorno virtual
+venv/
+.env
+
+# Ignorar archivos y directorios generados por el IDE
+.idea/
+.vscode/
+
+# Ignorar archivos de configuración local
+*.env
+
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
